@@ -18,7 +18,9 @@ Quote Text: 36px light italic #1F2937
 
 .section1{
     background-color: #1f2937;
-    border: 10px;
+    display: flex;
+    gap: 100px;
+    border: 4px red;
 }
 
 #text1{
@@ -28,17 +30,33 @@ Quote Text: 36px light italic #1F2937
     display: inline-block;
 }
 
-.section2{
+#headerlink1{
+    border: red;
+    color: white;
+    font-weight: bold;
 
+
+}
+
+.section2{
+    background-color: #1f2937;
+    border: 10px;
+    height: 125px;
 
 }
 
 #text2{
 
+    border: red;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
 }
 
 .section3{
-
+    background-color: white;
+    border: 10px;
+    height: 125px;
 
 }
 
@@ -47,7 +65,9 @@ Quote Text: 36px light italic #1F2937
 }
 
 .section4{
-
+    background-color: gray;
+    border: 10px;
+    height: 125px;
 
 }
 
@@ -64,3 +84,6 @@ Quote Text: 36px light italic #1F2937
 
 }
 
+.section6{
+    
+}
