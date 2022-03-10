@@ -32,17 +32,23 @@ Quote Text: 36px light italic #1F2937
 
 #headerlink1{
     border: red;
-    color: white;
-    font-weight: bold;
+    color: gray;
+}
 
+#headerlink2{
+    border: red;
+    color: #808080;
+}
 
+#headerlink3{
+    border: red;
+    color: gray;
 }
 
 .section2{
     background-color: #1f2937;
     border: 10px;
     height: 125px;
-
 }
 
 #text2{
@@ -57,7 +63,6 @@ Quote Text: 36px light italic #1F2937
     background-color: white;
     border: 10px;
     height: 125px;
-
 }
 
 #text3{
@@ -68,7 +73,6 @@ Quote Text: 36px light italic #1F2937
     background-color: gray;
     border: 10px;
     height: 125px;
-
 }
 
 #text4{
@@ -85,5 +89,17 @@ Quote Text: 36px light italic #1F2937
 }
 
 .section6{
-    
+    background: #1f2937;
+    border: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text6{
+    color: gray;
+    align-items: center;
+    font-size: 10px;
+
 }
