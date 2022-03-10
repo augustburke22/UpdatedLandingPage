@@ -19,30 +19,37 @@ Quote Text: 36px light italic #1F2937
 .section1{
     background-color: #1f2937;
     display: flex;
-    gap: 100px;
     border: 4px red;
+    gap: 8px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 #text1{
     border: red;
     color: white;
     font-weight: bold;
-    display: inline-block;
+    align-items: left;
 }
 
 #headerlink1{
     border: red;
     color: gray;
+    align-items: right;
 }
 
 #headerlink2{
     border: red;
     color: #808080;
+    align-items: right;
 }
 
 #headerlink3{
     border: red;
     color: gray;
+    align-items: right;
 }
 
 .section2{
@@ -77,6 +84,11 @@ Quote Text: 36px light italic #1F2937
 
 #text4{
 
+
+}
+
+#rickybobby{
+    
 }
 
 .section5{
