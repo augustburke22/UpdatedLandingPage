@@ -16,40 +16,20 @@ Quote section background color #E5E7EB
 Quote Text: 36px light italic #1F2937
 */
 
-.section1{
-    background-color: #1f2937;
+nav {
     display: flex;
-    border: 4px red;
-    gap: 8px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
+    justify-content: space-between;
     
 }
 
-#text1{
-    border: red;
-    color: white;
+.dark-background{
+    background-color: #1f2937;
     font-weight: bold;
-    align-items: left;
-}
-
-#headerlink1{
-    border: red;
-    color: gray;
-    align-items: right;
-}
-
-#headerlink2{
-    border: red;
-    color: #808080;
-    align-items: right;
-}
-
-#headerlink3{
-    border: red;
-    color: gray;
-    align-items: right;
+    color: white;
+    gap: 20px;
 }
 
 .section2{
@@ -80,24 +60,26 @@ Quote Text: 36px light italic #1F2937
     background-color: gray;
     border: 10px;
     height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
-#text4{
 
-
-}
 
 #rickybobby{
-    
+
 }
 
 .section5{
 
 
+
 }
 
 #text5{
-
+    
 }
 
 .section6{
